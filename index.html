@@ -2,12 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Darmowy Kurs CSS</title>
+    <title>Agroturystyka w Soplicowie</title>
 
     <style>
-        /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
-
-        /* wygląd głównego elementu - ol */
         ol {
           list-style-type:none;
           margin:0;
@@ -18,7 +15,6 @@
           text-align:center;
         }
 
-        /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
         ol a {
           display:block;
           text-decoration:none;
@@ -26,7 +22,6 @@
           padding:0 5px;
         }
 
-        /* wygląd elementów - li - wszystkich dzieci elementu - ol */
         ol > li {
           float:left;
           width:140px;
@@ -35,29 +30,22 @@
           height:2em;
         }
 
-        /* wygląd elementu - li - pierwszego dziecka elementu - ol */
         ol > li:first-child {
           margin-left:0;
         }
 
-        /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
         ol > li:hover {
           background-color:#EEE;
         }
 
-        /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
         ol > li:hover > a {
           color:#09C;
         }
 
-        /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
         ol > li:hover > ul {
           display:block;
         }
 
-        /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
-
-        /* wygląd głównych rozwijanych elementów - ul */
         ol > li > ul {
           display:none;
           list-style-type:none;
@@ -65,33 +53,27 @@
           margin:0;
         }
 
-        /* wygląd elementu - li - w części rozwijanej */
         ol > li > ul > li {
           position:relative;
           background-color:#EEE;
         }
 
-        /* wygląd elementu - a - w części rozwijanej */
         ol > li > ul > li > a {
           border-top:1px solid #FFF;
         }
 
-        /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
         ol > li > ul > li:hover {
           background-color:#DDD;
         }
 
-        /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
         ol > li > ul > li:hover > a {
           color:#09C;
         }
 
-.topnav {
+        .topnav {
+          background-color: #FDD700;
+        }
 
-  background-color: #FDD700;
-}
-
-         /* Style the content */
         .content {
           background-color: #ddd;
           padding: 10px;
@@ -109,31 +91,30 @@
           height: auto;
         }
 
-        /* Style the footer */
         .footer {
           background-color: #f1f1f1;
           padding: 10px;
         }
 
-                /* Style the footer */
         .title {
         font-size: 90px;
         text-align: center;
         margin:auto;
         background-position-y: center;
-          background-color: #f1f1f1;
-          background-image: url("img/tytul_tlo.jpg");
-          height:200px;
-          background-size:cover;
-          padding: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-family: arial;
-          font-weight: bold;
-          color: maroon;
-    text-shadow: 2px 2px 5px black;
+        background-color: #f1f1f1;
+        background-image: url("img/tytul_tlo.jpg");
+        height:200px;
+        background-size:cover;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: arial;
+        font-weight: bold;
+        color: maroon;
+        text-shadow: 2px 2px 5px black;
         }
+
         body {
         width:1500px;
         margin:0 auto;
@@ -144,6 +125,7 @@
 
 <body>
 <div class="title">Agroturystyka Soplicowo</div>
+
 <div class="topnav">
     <ol>
         <li><a href="index.html">Strona Główna</a>
@@ -193,21 +175,18 @@
 <div class="content">
     <h1>O właścicielu, Soplicowe i okolicach</h1>
 
-        <img src="/img/dworek.jpg">
+    <img src="/img/dworek.jpg">
     <p>Dworek w Soplicowie</p>
-        <img src="/img/s-dzia-soplica-l.jpg">
+    <img src="/img/s-dzia-soplica-l.jpg">
     <p>Właściciel</p>
-        <img src="/img/mapa.jpg">
+    <img src="/img/mapa.jpg">
     <p>Mapa</p>
-
-
 </div>
 
 <div class="footer">
 </div>
 
 </body>
-
 </html>
 
 
