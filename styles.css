@@ -147,3 +147,23 @@ ol {
         margin-top: 30px;
         text-align: left;
         }
+
+        .atrakcje-box {
+        border-style: solid;
+        border-width: 6px;
+        width: 1000px;
+        padding: 10px;
+        margin-bottom: 50px;
+        }
+
+        .atrakcje-tytul {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+        .atrakcje-tresc {
+        margin-top: 30px;
+        text-align: left;
+        }
