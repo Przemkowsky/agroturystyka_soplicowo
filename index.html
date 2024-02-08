@@ -12,7 +12,7 @@
           list-style-type:none;
           padding:0;
           margin:0;
-          background-color:#FFF;
+
           font-size:18px;
           height:2em;
           line-height:2em;
@@ -86,12 +86,37 @@
         ol > li > ul > li:hover > a {
           color:#09C;
         }
+
+.topnav {
+
+  background-color: #333;
+}
+
+         /* Style the content */
+        .content {
+          background-color: #ddd;
+          padding: 10px;
+          height: 200px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Style the footer */
+        .footer {
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
+
+                /* Style the footer */
+        .title {
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
     </style>
 
 </head>
 
 <body>
-
+<div class="title"> TITLE </div>
+<div class="topnav">
 <ol>
     <li><a href="#">dział - 1</a>
         <ul>
@@ -122,6 +147,19 @@
         </ul>
     </li>
 </ol>
+</div>
+
+<div class="content">
+    <h2>CSS Template</h2>
+    <p>A topnav, content and a footer.</p>
+</div>
+
+<div class="footer">
+    <p>Footer</p>
+</div>
 
 </body>
+
 </html>
+
+
