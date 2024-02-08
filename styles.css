@@ -1,0 +1,141 @@
+ol {
+          list-style-type:none;
+          margin:0;
+
+          font-size:18px;
+          height:2em;
+          line-height:2em;
+          text-align:center;
+        }
+
+        ol a {
+          display:block;
+          text-decoration:none;
+          color:#000;
+          padding:0 5px;
+        }
+
+        ol > li {
+          float:left;
+          width:140px;
+          margin-left:1px;
+          background-color:#FDD700;
+          height:2em;
+        }
+
+        ol > li:first-child {
+          margin-left:0;
+        }
+
+        ol > li:hover {
+          background-color:#EEE;
+        }
+
+        ol > li:hover > a {
+          color:#09C;
+        }
+
+        ol > li:hover > ul {
+          display:block;
+        }
+
+        ol > li > ul {
+          display:none;
+          list-style-type:none;
+          padding:0;
+          margin:0;
+        }
+
+        ol > li > ul > li {
+          position:relative;
+          background-color:#EEE;
+        }
+
+        ol > li > ul > li > a {
+          border-top:1px solid #FFF;
+        }
+
+        ol > li > ul > li:hover {
+          background-color:#DDD;
+        }
+
+        ol > li > ul > li:hover > a {
+          color:#09C;
+        }
+
+        .topnav {
+          background-color: #FDD700;
+        }
+
+        .content {
+          display: grid;
+          background-color: #ddd;
+          padding: 10px;
+          justify-content: center;
+        }
+
+        .content p {
+          font-size: 30px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        }
+
+        .content img {
+          width: 1024px;
+          height: auto;
+        }
+
+        .footer {
+          background-color: #f1f1f1;
+          padding: 10px;
+        }
+
+        .title {
+        font-size: 90px;
+        text-align: center;
+        margin:auto;
+        background-position-y: center;
+        background-color: #f1f1f1;
+        background-image: url("img/tytul_tlo.jpg");
+        height:200px;
+        background-size:cover;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: arial;
+        font-weight: bold;
+        color: maroon;
+        text-shadow: 2px 2px 5px black;
+        }
+
+        body {
+        width:1500px;
+        margin:0 auto;
+        }
+
+        .oferta-box {
+        border-style: solid;
+        border-width: 6px;
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 50px;
+        }
+
+        .oferta-tytul {
+        float: left;
+        width: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        }
+        .oferta-cena {
+        float: right;
+        width: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: right;
+        }
+        .oferta-tresc {
+        margin-top: 30px;
+        text-align: left;
+        }ó
