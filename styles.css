@@ -148,15 +148,16 @@ ol {
         text-align: left;
         }
 
-        .atrakcje-box {
+        .atrakcje-box, .cennik-box {
         border-style: solid;
         border-width: 6px;
         width: 1000px;
         padding: 10px;
         margin-bottom: 50px;
+        display: grid;
         }
 
-        .atrakcje-tytul {
+        .atrakcje-tytul, .cennik-tytul{
         float: left;
         width: 50%;
         font-size: 20px;
@@ -164,6 +165,19 @@ ol {
         }
 
         .atrakcje-tresc {
-        margin-top: 30px;
         text-align: left;
+        }
+
+        .atrakcje-tresc p{
+        font-size: 20px;
+        text-align: left;
+        }
+
+        .cennik-tresc {
+        font-family: Courier New;
+
+        }
+
+        .checked {
+        color: orange;
         }
