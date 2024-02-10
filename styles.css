@@ -181,3 +181,9 @@ ol {
         .checked {
         color: orange;
         }
+
+        .akapit {
+        text-align: justify !important;
+        padding: 50px;
+        padding-top: 0px;
+        }
